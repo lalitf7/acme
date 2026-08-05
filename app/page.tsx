@@ -36,7 +36,6 @@ export default function Page() {
           {/* Add Hero Images Here */}
           <Image
             src="/hero-desktop.png"
-            alt="Hero Image"
             width={1000}
             height={700}
             className="hidden md:block"
@@ -44,7 +43,6 @@ export default function Page() {
           />
           <Image
             src="/hero-mobile.png"
-            alt="Hero Image"
             width={560}
             height={620}
             className="block md:hidden"
